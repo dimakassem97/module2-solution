@@ -1,0 +1,69 @@
+
+@media  only screen and (min-width :992px )
+{
+	.container > div {
+     width: 30%; 
+ }
+}
+@media only screen and (min-width :768px )and (max-width :991px)
+{
+	.container > div
+	{max-width: 50%;}
+}
+@media only screen and (max-width : 767px)
+{   .container > div
+	{width: 100%;}
+}
+body
+{
+	margin-left: 10%;
+    margin-right: 10%;
+}
+.container > div {
+     
+     float: left;
+     margin: 10px;
+     background-color: #ebebeb;
+     font-size: 18px;
+     font-family: inherit;
+     max-height: 100%;
+    overflow: auto;    
+    border-radius: 10px;
+}
+.container > div >article {    
+     padding: 10px;
+     float: left;
+}
+.title
+{
+	
+    top:10px;
+    right: 10px;
+    float: right;
+    width: 25%;
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+
+}
+#titlesec1
+{
+	background-color: #e7acc7;
+} 
+#titlesec2
+{
+	background-color: #33ccff;
+} 
+#titlesec3
+{
+	background-color: #dc8d89;
+} 
+
+#OUR-MENU
+{
+	    text-align: center;
+        font-style: italic;
+       font-family: cursive;
+       color: #33ccff;
+
+}
