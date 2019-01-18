@@ -3,16 +3,29 @@
 {
 	.container > div {
      width: 30%; 
+		 margin: 10px;
  }
 }
 @media only screen and (min-width :768px )and (max-width :991px)
 {
 	.container > div
-	{max-width: 50%;}
+	{max-width: 49%;
+	margin-top: 10px;
+margin-bottom: 10px;}
+	#sec1
+	{
+		margin-right: 10px;		
+	}
+	#sec3
+	{
+		width: 100%;		
+	}
+	
 }
 @media only screen and (max-width : 767px)
 {   .container > div
-	{width: 100%;}
+	{width: 100%;
+	margin: 10px;}
 }
 body
 {
@@ -21,13 +34,12 @@ body
 }
 .container > div {
      
-     float: left;
-     margin: 10px;
+    float: left;
+         font-style: oblique;
      background-color: #ebebeb;
      font-size: 18px;
-     font-family: inherit;
-     max-height: 100%;
-    overflow: auto;    
+     font-family: inherit;    
+      
     border-radius: 10px;
 }
 .container > div >article {    
